@@ -297,7 +297,7 @@ to{opacity:.25;-webkit-transform:scale(.85);transform:scale(.85)}}.leleplayer-co
 .leleplayer-danmaku .leleplayer-danmaku-right{position:absolute;right:0;-webkit-transform:translateX(100%);transform:translateX(100%)}
 .leleplayer-danmaku .leleplayer-danmaku-right.leleplayer-danmaku-move{z-index:2;will-change:transform;-webkit-animation: danmaku 8.41424s linear;animation: danmaku 8.41424s linear;-webkit-animation-play-state:paused;animation-play-state:paused;user-select: none;position: absolute;}
 @-webkit-keyframes danmaku{0%{-webkit-transform:translateX(100%);transform:translateX(100%)}}@keyframes danmaku{0%{-webkit-transform:translateX(100%);transform:translateX(100%)}}.leleplayer-danmaku .leleplayer-danmaku-bottom,.leleplayer-danmaku .leleplayer-danmaku-top{position:absolute;width:100%;text-align:center;visibility:hidden}
-.leleplayer-danmaku .leleplayer-danmaku-bottom.leleplayer-danmaku-move,.leleplayer-danmaku .leleplayer-danmaku-top.leleplayer-danmaku-move{will-change:visibility;-webkit-animation:danmaku-center 4s linear;animation:danmaku-center 4s linear;-webkit-animation-play-state:paused;animation-play-state:paused}
+.leleplayer-danmaku .leleplayer-danmaku-bottom.leleplayer-danmaku-move,.leleplayer-danmaku .leleplayer-danmaku-top.leleplayer-danmaku-move{will-change:visibility;-webkit-animation:danmaku-center 4s linear;animation:danmaku-center 4s linear;-webkit-animation-play-state:paused;animation-play-state:paused;z-index:2;}
 .leleplayer.leleplayer-paused .leleplayer-danmaku:hover,.leleplayer-danmaku-item:nth-child(2):hover{-webkit-animation-play-state: paused!important;animation-play-state: paused!important;}
 @-webkit-keyframes danmaku-center{0%{visibility:visible}
 to{visibility:visible}}@keyframes danmaku-center{0%{visibility:visible}

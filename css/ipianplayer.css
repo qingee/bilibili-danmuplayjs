@@ -302,8 +302,19 @@ to{opacity:.25;-webkit-transform:scale(.85);transform:scale(.85)}}.leleplayer-co
 @-webkit-keyframes danmaku-center{0%{visibility:visible}
 to{visibility:visible}}@keyframes danmaku-center{0%{visibility:visible}
 to{visibility:visible}}
-.leleplayer-logo{pointer-events:none;position:absolute;right: 5%;top: 5%;width: 100px;height: 55px;opacity: .5;}
+.leleplayer-logo{pointer-events:none;position:absolute;z-index: 99999;right: 5%;top: 5%;width: 100px;height: 55px;opacity: .5;}
 .leleplayer-logo img{max-width:100%;max-height:100%;background:none}
+
+/*  添加视频遮挡层 ，可用来遮挡视频跑马灯广告   */  
+.leleplayer-controller-mask{
+
+/*  设置广告高度,支持百分百  */height: 8.6%;
+
+/*  下面配置一般无需修改    */position:absolute;z-index: 99998;background-color:#000;left:0px;top:0px;width:100%;}
+ /*  移动设备自适应宽高  */  
+@media screen and (max-width: 650px) {.fixed {height:36%;}}
+
+
 .leleplayer-menu{position:absolute;width:170px;border-radius:2px;background:rgba(28,28,28,.85);padding:5px 0;overflow:hidden;z-index:3;display:none}
 .leleplayer-menu.leleplayer-menu-show{display:block}
 .leleplayer-menu .leleplayer-menu-item{height:30px;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer}

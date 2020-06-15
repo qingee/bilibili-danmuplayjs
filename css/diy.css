@@ -242,7 +242,7 @@ body a:hover {
     clear: both;
 }
 body {
-    background: url(../images/b1.jpg) no-repeat center;
+    background: url(https://cdn.jsdelivr.net/gh/qingee/img/img/2020/06/1592236862-fc34b0fd28495ff.png?w=1920&h=1080) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -254,12 +254,12 @@ body {
 
 .text-center {
     text-align: center;
-    font-size: 26px; 
+    font-size: 24px; 
 }
 
 /*-- error --*/
 .content {
-    width: 60%;
+    width: 70%;
     margin: 2em auto;
 }
 .error_content {
@@ -278,7 +278,7 @@ body {
     margin-top:5px;
 }
 .back_to_index {
-    margin-bottom: 1em;
+    margin-bottom: 5px;
 }
 .content_right {
     border-style:solid;
@@ -286,16 +286,16 @@ body {
     border-color:#FFF;
     flex-basis: 70%;
     -webkit-flex-basis: 70%;
-    padding: 1em 1em;
+    padding: 10px 1em;
     opacity:0.9;
-	background: url(../images/dust.png) repeat 0px 0px ;
+	background: url(https://cdn.jsdelivr.net/gh/qingee/img/img/2020/06/1592236765-8bfbf356bbce29b.png?w=960&h=540) repeat 0px 0px ;
 }
 h1 {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 8px;
     margin: 1em 0;
-	color: #fff;
+	color: #9a6421;
 }
 .content_left p {
     color: #555;
@@ -303,7 +303,7 @@ h1 {
     font-size: 15px;
     line-height: 26px;
     text-transform: capitalize;
-    margin: 1em 0 2em;
+    margin: 5px 0 1em;
 }
 .content_left h3 {
     font-size: 100px;
@@ -344,14 +344,14 @@ h5 {
 	-ms-transition: 0.5s all;
 }
 .content_right h3 {
-    color: #fff;
+    color: #3d6bec;
     font-size: 30px;
     text-transform: capitalize;
     /*margin: 1em 0;*/
 }
 .content_right p {
-    color: #fff;
-    letter-spacing: 1px;
+    color: #ff00d4;
+    letter-spacing: 4px;
     font-size: 17px;
 }
 .content_right span.fas.fa-search {
@@ -361,7 +361,7 @@ h5 {
 .b-search {
     position: relative;
     width: 90%;
-    margin: 1em auto 0;
+    margin: 5px auto 0;
 }
 .b-search input[type="text"] {
     width: 100%;
@@ -497,7 +497,7 @@ h5 {
 }
 @media screen and (max-width: 414px) {
 	.content_left,.content_right{
-		padding: 2em;
+		padding: 5px;
 	}
 	h1 {
 		font-size: 32px;

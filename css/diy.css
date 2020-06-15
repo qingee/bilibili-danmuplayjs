@@ -271,7 +271,7 @@ body {
 }
 .content_left {
     /*opacity:0.9;*/
-    background: url(../images/doodles.png) repeat 0px 0px;
+    background: url(https://cdn.jsdelivr.net/gh/qingee/img/img/2020/06/1592239681-f0b3224c59fc202.png?w=400&h=400) repeat 0px 0px;
     flex-basis: 70%;
     -webkit-flex-basis: 70%;
     padding: 10px;
@@ -375,7 +375,7 @@ h5 {
     font-family: 'Raleway', sans-serif;
 }
 .b-search input[type="submit"] {
-    background: url(../images/search-icon.png) no-repeat 14px 14px #F44336;
+    background: url(https://cdn.jsdelivr.net/gh/qingee/img/img/2020/06/1592239743-7d70bd357c73e76.png?w=24&h=24) no-repeat 14px 14px #F44336;
     border: none;
     height: 49px;
     width: 50px;

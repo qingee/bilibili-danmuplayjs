@@ -521,3 +521,11 @@ h5 {
 		height: 49px;
 	}
 }
+/** 鼠标样式 开始**/
+/** 普通指针样式**/
+body {
+cursor: url(https://cdn.jsdelivr.net/gh/qingee/img/img/2020/06/1592308672-1519e6635fc6286.png), default;
+}
+/** 链接指针样式**/
+a:hover{cursor:url(https://cdn.jsdelivr.net/gh/qingee/img/img/2020/06/1592308752-3e532a0ade77fae.png), pointer;}
+/** 鼠标样式 结束**/
